@@ -1,0 +1,6 @@
+{
+  "name": "VoiceTask AI",
+  "description": "Smart Voice-to-Task & Personal Productivity Assistant dengan pengorganisir tugas berbasis AI suara, dashboard produktivitas, dan text-to-speech interaktif.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

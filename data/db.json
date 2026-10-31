@@ -1,0 +1,251 @@
+{
+  "users": [
+    {
+      "id": "usr_demo_sarah",
+      "name": "Sarah Pratama",
+      "email": "sarah@voicetask.ai",
+      "password_hash": "3b992d8515173ac2eda211a31b25a1b38fda8017bc12026499565f5561e93e8e",
+      "subscription_type": "PREMIUM",
+      "created_at": "2026-10-15T08:00:00.000Z",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "daily_voice_count": 4,
+      "last_voice_date": "2026-10-31"
+    },
+    {
+      "id": "usr_demo_budi",
+      "name": "Budi Santoso",
+      "email": "budi@gmail.com",
+      "password_hash": "3b992d8515173ac2eda211a31b25a1b38fda8017bc12026499565f5561e93e8e",
+      "subscription_type": "PREMIUM",
+      "created_at": "2026-10-20T10:00:00.000Z",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "daily_voice_count": 3,
+      "last_voice_date": "2026-10-31"
+    }
+  ],
+  "tasks": [
+    {
+      "user_id": "usr_demo_sarah",
+      "title": "Membuat PDF materi dasar fundamental RPL",
+      "description": "Menyusun dan membuat dokumen PDF yang memuat materi dasar-dasar Rekayasa Perangkat Lunak (RPL).",
+      "category": "Belajar",
+      "priority": "Sedang",
+      "deadline": "",
+      "execution_time": "Tidak ditentukan",
+      "status": "Belum Dimulai",
+      "source": "Suara",
+      "id": "tsk_e1072cb4",
+      "created_at": "2026-10-31T18:56:55.283Z"
+    },
+    {
+      "id": "tsk_1",
+      "user_id": "usr_demo_sarah",
+      "title": "Menghubungi Pak Andi tentang proyek website",
+      "description": "Diskusikan revisi wireframe dan timeline deployment kuartal 4.",
+      "category": "Pekerjaan",
+      "priority": "Tinggi",
+      "deadline": "2026-11-01T09:00:00.000Z",
+      "execution_time": "09:00 Pagi",
+      "status": "Selesai",
+      "source": "Suara",
+      "created_at": "2026-10-30T14:20:00.000Z",
+      "updated_at": "2026-10-31T18:50:56.276Z"
+    },
+    {
+      "id": "tsk_2",
+      "user_id": "usr_demo_sarah",
+      "title": "Kirim laporan performa ke kantor",
+      "description": "Laporan bulanan KPI dan metrik kepuasan pengguna.",
+      "category": "Pekerjaan",
+      "priority": "Sedang",
+      "deadline": "2026-11-01T13:00:00.000Z",
+      "execution_time": "13:00 Siang",
+      "status": "Selesai",
+      "source": "Suara",
+      "created_at": "2026-10-30T14:21:00.000Z",
+      "updated_at": "2026-10-31T18:50:59.455Z"
+    },
+    {
+      "id": "tsk_3",
+      "user_id": "usr_demo_sarah",
+      "title": "Menyelesaikan desain aplikasi VoiceTask",
+      "description": "Finalisasi mockup UI/UX di Figma dan komponen audio waveform.",
+      "category": "Proyek",
+      "priority": "Tinggi",
+      "deadline": "2026-11-06T17:00:00.000Z",
+      "execution_time": "Hari Jumat 17:00",
+      "status": "Belum Dimulai",
+      "source": "Suara",
+      "created_at": "2026-10-30T14:22:00.000Z"
+    },
+    {
+      "id": "tsk_4",
+      "user_id": "usr_demo_sarah",
+      "title": "Evaluasi sprint mingguan tim backend",
+      "description": "Review integrasi API audio dan speech-to-text.",
+      "category": "Pekerjaan",
+      "priority": "Sedang",
+      "deadline": "2026-11-02T10:00:00.000Z",
+      "execution_time": "10:00 Pagi",
+      "status": "Belum Dimulai",
+      "source": "Manual",
+      "created_at": "2026-10-29T11:00:00.000Z"
+    },
+    {
+      "id": "tsk_5",
+      "user_id": "usr_demo_sarah",
+      "title": "Beli perlengkapan kerja & kopi bean arabika",
+      "description": "Persiapan stok coffee bar rumah untuk sprint kerja.",
+      "category": "Pribadi",
+      "priority": "Rendah",
+      "deadline": "2026-10-31T19:00:00.000Z",
+      "execution_time": "19:00 Malam",
+      "status": "Selesai",
+      "source": "Suara",
+      "created_at": "2026-10-28T09:00:00.000Z"
+    }
+  ],
+  "voice_history": [
+    {
+      "id": "vh_3f7d1e7b",
+      "user_id": "usr_demo_sarah",
+      "original_transcript": "buatkan saya pdf dengan materi rpl dasar dasar fundamental",
+      "processed_result": {
+        "tasks_count": 1,
+        "tasks_summary": [
+          "Membuat PDF materi dasar fundamental RPL (Tidak ditentukan)"
+        ],
+        "ai_feedback": "Baik, saya sudah mencatat tugas untuk membuat PDF materi dasar fundamental RPL ke dalam daftar tugas Anda."
+      },
+      "created_at": "2026-10-31T18:56:43.581Z"
+    },
+    {
+      "id": "vh_fa046da0",
+      "user_id": "usr_demo_sarah",
+      "original_transcript": "cukki pendo",
+      "processed_result": {
+        "tasks_count": 0,
+        "tasks_summary": [],
+        "ai_feedback": "Maaf, saya belum menangkap tugas yang Anda maksud. Bisa tolong ulangi atau sebutkan tugas yang ingin Anda catat?"
+      },
+      "created_at": "2026-10-31T18:53:44.502Z"
+    },
+    {
+      "id": "vh_1",
+      "user_id": "usr_demo_sarah",
+      "original_transcript": "Besok pagi saya harus menghubungi Pak Andi tentang proyek website, terus siang jangan lupa kirim laporan ke kantor, dan hari Jumat saya harus menyelesaikan desain aplikasi.",
+      "processed_result": {
+        "tasks_count": 3,
+        "tasks_summary": [
+          "Menghubungi Pak Andi tentang proyek website (Besok pagi)",
+          "Kirim laporan performa ke kantor (Besok siang)",
+          "Menyelesaikan desain aplikasi VoiceTask (Hari Jumat)"
+        ],
+        "ai_feedback": "Saya berhasil memisahkan ucapan Anda menjadi 3 tugas terstruktur."
+      },
+      "created_at": "2026-10-30T14:20:00.000Z"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "sub_sarah",
+      "user_id": "usr_demo_sarah",
+      "plan": "PREMIUM",
+      "status": "ACTIVE",
+      "start_date": "2026-10-31T18:57:49.416Z",
+      "end_date": "2027-10-31T18:57:49.416Z",
+      "features": [
+        "Konversi suara tanpa batas",
+        "AI Assistant cerdas bertenaga Gemini 3.8",
+        "Pengingat otomatis & push notification",
+        "Ekspor Google Calendar (.ics)",
+        "Sinkronisasi format Notion & Markdown",
+        "Analisis produktivitas lengkap"
+      ]
+    },
+    {
+      "id": "sub_32ad0d10",
+      "user_id": "usr_demo_budi",
+      "plan": "PREMIUM",
+      "status": "ACTIVE",
+      "start_date": "2026-10-31T19:09:42.842Z",
+      "end_date": "2027-10-31T19:09:42.842Z",
+      "features": [
+        "Konversi suara tanpa batas",
+        "AI Assistant cerdas bertenaga Gemini 3.8",
+        "Pengingat otomatis & push notification",
+        "Ekspor Google Calendar (.ics)",
+        "Sinkronisasi format Notion & Markdown",
+        "Analisis produktivitas lengkap"
+      ],
+      "billing_cycle": "monthly"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_bd5b0510",
+      "user_id": "usr_demo_budi",
+      "message": "Selamat! Akun Anda telah berhasil di-upgrade ke VoiceTask AI Premium. Nikmati konversi tanpa batas!",
+      "scheduled_at": "2026-10-31T19:09:42.842Z",
+      "is_read": false,
+      "type": "SYSTEM",
+      "created_at": "2026-10-31T19:09:42.842Z"
+    },
+    {
+      "id": "notif_5da11956",
+      "user_id": "usr_demo_sarah",
+      "message": "Selamat! Akun Anda telah berhasil di-upgrade ke VoiceTask AI Premium. Nikmati konversi tanpa batas!",
+      "scheduled_at": "2026-10-31T18:57:49.416Z",
+      "is_read": false,
+      "type": "SYSTEM",
+      "created_at": "2026-10-31T18:57:49.416Z"
+    },
+    {
+      "id": "notif_1",
+      "user_id": "usr_demo_sarah",
+      "task_id": "tsk_1",
+      "message": "Pengingat: Menghubungi Pak Andi tentang proyek website dijadwalkan besok pagi pukul 09:00.",
+      "scheduled_at": "2026-11-01T08:30:00.000Z",
+      "is_read": false,
+      "type": "DEADLINE",
+      "created_at": "2026-10-31T08:00:00.000Z"
+    },
+    {
+      "id": "notif_2",
+      "user_id": "usr_demo_sarah",
+      "message": "Selamat datang di VoiceTask AI! Tekan tombol mikrofon untuk mulai mencatat tugas dengan suara.",
+      "scheduled_at": "2026-10-30T14:25:00.000Z",
+      "is_read": true,
+      "type": "SYSTEM",
+      "created_at": "2026-10-30T14:25:00.000Z"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv_884cdc58",
+      "invoice_number": "INV-202610-002",
+      "user_id": "usr_demo_budi",
+      "plan": "PREMIUM",
+      "billing_cycle": "monthly",
+      "amount": 49000,
+      "payment_method": "qris",
+      "status": "PAID",
+      "qr_string": "00020101021226600016ID.CO.VOICETASK.WWW0118936000021793473778061520458125303360540490005802ID5913VOICETASK AI6007JAKARTA63043BF2",
+      "created_at": "2026-10-31T19:09:38.062Z",
+      "paid_at": "2026-10-31T19:09:42.841Z"
+    },
+    {
+      "id": "inv_seed_sarah_1",
+      "invoice_number": "INV-202610-001",
+      "user_id": "usr_demo_sarah",
+      "plan": "PREMIUM",
+      "billing_cycle": "monthly",
+      "amount": 49000,
+      "payment_method": "qris",
+      "status": "PAID",
+      "qr_string": "00020101021226600016ID.CO.VOICETASK.WWW01189360000201234567895204581253033605405490005802ID5913VOICETASK AI6007JAKARTA6304A1B2",
+      "created_at": "2026-10-01T00:00:00.000Z",
+      "paid_at": "2026-10-01T00:02:15.000Z"
+    }
+  ]
+}
